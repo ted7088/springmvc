@@ -2,6 +2,7 @@ package hello.springmvc.basic.requestmapping;
 import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/mapping/users")
+//매핑을 시켜주는 컨트롤러
 public class MappingClassController {
     /**
      * GET /mapping/users

@@ -11,6 +11,7 @@ public class LogTestController {
 
     //@Slf4j 어노테이션을 이용해서 이걸 생략 가능
     //private final Logger log = LoggerFactory.getLogger(getClass());
+    //로그확인 가능
 
 
     @RequestMapping("/log-test")
