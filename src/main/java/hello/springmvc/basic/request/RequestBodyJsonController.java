@@ -27,6 +27,8 @@ public class RequestBodyJsonController {
 
     private ObjectMapper objectMapper = new ObjectMapper();
 
+
+    //json으로 값 넘기기 여러가지 방법
     @PostMapping("/request-body-json-v1")
     public void requestBodyJsonV1(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
